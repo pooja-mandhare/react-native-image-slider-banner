@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         width: width, 
         resizeMode: 'contain', 
         flex:1,
-        height: 100
+       
     },
     previewImageContainerStyle: {
         width, 
