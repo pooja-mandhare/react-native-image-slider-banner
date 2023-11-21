@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     caroselImageStyle : {
         width: width, 
         resizeMode: 'contain', 
-        height: 300
+        flex:1
     },
     previewImageContainerStyle: {
         width, 
