@@ -43,7 +43,6 @@ export const ImageSlider = ({
     const [currentIndex, setCurrentIndex] = useState(0)
     const slider = useRef(null)
     const timerRef = useRef<any>(null);
-    console.log(caroselImageStyle)
     const onViewRef = React.useRef(({ viewableItems }) => {
         // Use viewable items in state or as intended
         if (viewableItems.length > 0) {
